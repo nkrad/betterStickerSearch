@@ -20,9 +20,96 @@
       <h1>BETTER CSGO Sticker Search</h1>
       <p>Search weapons listed on the Steam Community Market which have stickers applied</p>
       <form>
+        <label for="query">Custom Search</label>
+        <input type="text" id="query" name="query" placeholder="Example: 'Redline'">
+        <br>
+
+        <label for="skinCollection">Skin Collection</label>
+        <select id="skinCollection" name="skinCollection">
+          <option value="any">Any</option>
+          <option value="The 2018 Inferno Collection ">The 2018 Inferno Collection </option>
+          <option value="The 2018 Nuke Collection ">The 2018 Nuke Collection </option>
+          <option value="The 2021 Dust 2 Collection ">The 2021 Dust 2 Collection </option>
+          <option value="The 2021 Mirage Collection ">The 2021 Mirage Collection </option>
+          <option value="The 2021 Train Collection ">The 2021 Train Collection </option>
+          <option value="The 2021 Vertigo Collection ">The 2021 Vertigo Collection </option>
+          <option value="The Alpha Collection ">The Alpha Collection </option>
+          <option value="The Ancient Collection ">The Ancient Collection </option>
+          <option value="The Anubis Collection ">The Anubis Collection </option>
+          <option value="The Arms Deal 2 Collection ">The Arms Deal 2 Collection </option>
+          <option value="The Arms Deal 3 Collection ">The Arms Deal 3 Collection </option>
+          <option value="The Arms Deal Collection ">The Arms Deal Collection </option>
+          <option value="The Assault Collection ">The Assault Collection </option>
+          <option value="The Aztec Collection ">The Aztec Collection </option>
+          <option value="The Baggage Collection ">The Baggage Collection </option>
+          <option value="The Bank Collection ">The Bank Collection </option>
+          <option value="The Blacksite Collection ">The Blacksite Collection </option>
+          <option value="The Bravo Collection ">The Bravo Collection </option>
+          <option value="The Breakout Collection ">The Breakout Collection </option>
+          <option value="The Cache Collection ">The Cache Collection </option>
+          <option value="The Canals Collection ">The Canals Collection </option>
+          <option value="The Chop Shop Collection ">The Chop Shop Collection </option>
+          <option value="The Chroma 2 Collection ">The Chroma 2 Collection </option>
+          <option value="The Chroma 3 Collection ">The Chroma 3 Collection </option>
+          <option value="The Chroma Collection ">The Chroma Collection </option>
+          <option value="The Clutch Collection ">The Clutch Collection </option>
+          <option value="The Cobblestone Collection ">The Cobblestone Collection </option>
+          <option value="The Control Collection ">The Control Collection </option>
+          <option value="The CS20 Collection ">The CS20 Collection </option>
+          <option value="The Danger Zone Collection ">The Danger Zone Collection </option>
+          <option value="The Dreams &amp; Nightmares Collection ">The Dreams &amp; Nightmares Collection </option>
+          <option value="The Dust 2 Collection ">The Dust 2 Collection </option>
+          <option value="The Dust Collection ">The Dust Collection </option>
+          <option value="The eSports 2013 Collection ">The eSports 2013 Collection </option>
+          <option value="The eSports 2013 Winter Collection ">The eSports 2013 Winter Collection </option>
+          <option value="The eSports 2014 Summer Collection ">The eSports 2014 Summer Collection </option>
+          <option value="The Falchion Collection ">The Falchion Collection </option>
+          <option value="The Fracture Collection ">The Fracture Collection </option>
+          <option value="The Gamma 2 Collection ">The Gamma 2 Collection </option>
+          <option value="The Gamma Collection ">The Gamma Collection </option>
+          <option value="The Glove Collection ">The Glove Collection </option>
+          <option value="The Gods and Monsters Collection ">The Gods and Monsters Collection </option>
+          <option value="The Havoc Collection ">The Havoc Collection </option>
+          <option value="The Horizon Collection ">The Horizon Collection </option>
+          <option value="The Huntsman Collection ">The Huntsman Collection </option>
+          <option value="The Inferno Collection ">The Inferno Collection </option>
+          <option value="The Italy Collection ">The Italy Collection </option>
+          <option value="The Lake Collection ">The Lake Collection </option>
+          <option value="The Militia Collection ">The Militia Collection </option>
+          <option value="The Mirage Collection ">The Mirage Collection </option>
+          <option value="The Norse Collection ">The Norse Collection </option>
+          <option value="The Nuke Collection ">The Nuke Collection </option>
+          <option value="The Office Collection ">The Office Collection </option>
+          <option value="The Operation Broken Fang Collection ">The Operation Broken Fang Collection </option>
+          <option value="The Operation Hydra Collection ">The Operation Hydra Collection </option>
+          <option value="The Operation Riptide Collection ">The Operation Riptide Collection </option>
+          <option value="The Overpass Collection ">The Overpass Collection </option>
+          <option value="The Phoenix Collection ">The Phoenix Collection </option>
+          <option value="The Prisma 2 Collection ">The Prisma 2 Collection </option>
+          <option value="The Prisma Collection ">The Prisma Collection </option>
+          <option value="The Recoil Collection ">The Recoil Collection </option>
+          <option value="The Revolution Collection ">The Revolution Collection </option>
+          <option value="The Revolver Case Collection ">The Revolver Case Collection </option>
+          <option value="The Rising Sun Collection ">The Rising Sun Collection </option>
+          <option value="The Safehouse Collection ">The Safehouse Collection </option>
+          <option value="The Shadow Collection ">The Shadow Collection </option>
+          <option value="The Shattered Web Collection ">The Shattered Web Collection </option>
+          <option value="The Snakebite Collection ">The Snakebite Collection </option>
+          <option value="The Spectrum 2 Collection ">The Spectrum 2 Collection </option>
+          <option value="The Spectrum Collection ">The Spectrum Collection </option>
+          <option value="The St. Marc Collection ">The St. Marc Collection </option>
+          <option value="The Train Collection ">The Train Collection </option>
+          <option value="The Vanguard Collection ">The Vanguard Collection </option>
+          <option value="The Vertigo Collection ">The Vertigo Collection </option>
+          <option value="The Wildfire Collection ">The Wildfire Collection </option>
+          <option value="The Winter Offensive Collection ">The Winter Offensive Collection </option>
+          <option value="The X-Ray Collection ">The X-Ray Collection </option>
+        </select>
+        <br>
+
         <label for="player">Pro Player</label>
         <select id="player" name="player">
-          <option value="Any">Any</option>
+          <option value="any">Any</option>
           <option value="abE (Abraham Fazli)">abE (Abraham Fazli)</option>
           <option value="ableJ (Rinaldo  Moda Junior)">ableJ (Rinaldo  Moda Junior)</option>
           <option value="acoR (Frederik Gyldstrand)">acoR (Frederik Gyldstrand)</option>
@@ -423,10 +510,11 @@
           <option value="Zyphon (Rasmus Nordfoss)">Zyphon (Rasmus Nordfoss)</option>
           <option value="ZywOo (Mathieu Herbaut)">ZywOo (Mathieu Herbaut)</option>
         </select>
+        <br>
 
         <label for="team">Team</label>
         <select id="team" name="team">
-            <option value="Any">Any</option>
+            <option value="any">Any</option>
             <option value="[R]eason Gaming">[R]eason Gaming</option>
             <option value="00 Nation">00 Nation</option>
             <option value="100 Thieves">100 Thieves</option>
@@ -545,10 +633,11 @@
             <option value="Winstrike Team">Winstrike Team</option>
             <option value="Xapso">Xapso</option>
         </select>
+        <br>
 
         <label for="weapon">Weapon</label>
         <select id="weapon" name="weapon">
-          <option value="Any">Any</option>
+          <option value="any">Any</option>
           <option value="AK-47">AK-47</option>
           <option value="AUG">AUG</option>
           <option value="AWP">AWP</option>
@@ -584,10 +673,11 @@
           <option value="USP-S">USP-S</option>
           <option value="XM1014">XM1014</option>
         </select>
+        <br>
 
         <label for="stickerCollection">Sticker Collection</label>
         <select id="stickerCollection" name="stickerCollection">
-          <option value="Any">Any</option>
+          <option value="any">Any</option>
           <option value="10 Year Birthday Sticker Capsule">10 Year Birthday Sticker Capsule</option>
           <option value="2020 RMR Challengers">2020 RMR Challengers</option>
           <option value="2020 RMR Contenders">2020 RMR Contenders</option>
@@ -680,26 +770,29 @@
           <option value="The Boardroom Sticker Capsule">The Boardroom Sticker Capsule</option>
           <option value="Warhammer 40,000 Sticker Capsule">Warhammer 40,000 Sticker Capsule</option>
         </select>
+        <br>
 
         <label for="type">Type</label>
         <select id="type" name="type">
-          <option value="Any">Any</option>
+          <option value="any">Any</option>
           <option value="Normal">Normal</option>
           <option value="Stattrack">Stattrack</option>
           <option value="Souvenir">Souvenir</option>
         </select>
+        <br>
 
         <label for="wear">Wear</label>
         <select id="wear" name="wear">
-          <option value="Any">Any</option>
+          <option value="any">Any</option>
           <option value="Factory New">Factory New</option>
           <option value="Minimal Wear">Minimal Wear</option>
           <option value="Field-Tested">Field-Tested</option>
           <option value="Well-Worn">Well-Worn</option>
           <option value="Battle-Scarred">Battle-Scarred</option>
         </select>
+        <br>
 
-        <button type="submit">Search</button>
+        <button onclick="marketSearch()">Search</button>
       </form>
     </section>
   </main>

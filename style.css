@@ -1,9 +1,10 @@
-/* General Styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #2c2c2c;
+  padding-right: 15%;
+  padding-left: 15%;
 }
 
 header {
@@ -39,7 +40,6 @@ section {
   margin-bottom: 20px;
 }
 
-/* Search Section */
 form input[type="text"] {
   width: 300px;
   padding: 5px;
@@ -53,14 +53,6 @@ form button {
   cursor: pointer;
 }
 
-/* Results Section */
-.sticker-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
-}
-
-/* Footer */
 footer {
   background-color: #222;
   color: #fff;
